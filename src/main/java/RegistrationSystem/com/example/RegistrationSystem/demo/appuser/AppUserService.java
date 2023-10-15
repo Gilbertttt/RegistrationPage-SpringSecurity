@@ -1,3 +1,15 @@
+// This is where the processing is
+
+// The Service layer controls all Logic within
+// this application
+
+
+// Implementing USerDetailsService (Its part of Spring Security)
+
+// Here we're finding User by email
+// When User email has not been found throw an exception
+//Which is the USER_NOT_FOUND_MSG
+
 package RegistrationSystem.com.example.RegistrationSystem.demo.appuser;
 
 import lombok.AllArgsConstructor;

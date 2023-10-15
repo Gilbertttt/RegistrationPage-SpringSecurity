@@ -1,5 +1,7 @@
 package RegistrationSystem.com.example.RegistrationSystem.demo.registration;
 
+// Registration
+
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

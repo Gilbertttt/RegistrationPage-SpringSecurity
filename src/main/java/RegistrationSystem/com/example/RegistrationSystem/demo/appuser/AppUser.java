@@ -1,3 +1,17 @@
+// Registration System Part 1
+
+
+//Creating an AppUser class to implement
+//UserDetails for Spring security
+//AppUser here defines whether it's a User or an admin
+
+
+// Application User has authority to certain
+//API endpoints depending on the actual role
+//which is either an ADMIN or USER
+
+//The first step was to create AppUser class with User properies
+//like name, username, email, password and an enum for UserRole
 package RegistrationSystem.com.example.RegistrationSystem.demo.appuser;
 
 import jakarta.persistence.*;
